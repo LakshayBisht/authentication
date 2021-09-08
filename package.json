@@ -1,0 +1,25 @@
+{
+	"name": "jwt-signup",
+	"version": "1.0.0",
+	"description": "Authentication with jsonWebTokens",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "Lakshey",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"crypto": "^1.0.1",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.4",
+		"mongoose-unique-validator": "^2.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
