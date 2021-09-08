@@ -23,23 +23,26 @@ This API is hosted at [here](https://lakshay-user-authentication.herokuapp.com/)
 
 **POST /user/signup/**
 Endpoint for signup, it also require payload in form of
-{
-user: {
-name: your-name,
-email: your.email@example.com,
-password: your-password
-}
-}
+	
+	{
+		user: {
+			name: your-name,
+			email: your.email@example.com,
+			password: your-password
+		}
+	}
 
 **POST /user/login/**
 Endpoint for login, it also require payload in form of
-{
-user: {
-email: your.email@example.com,
-password: your-password
-}
-}
+	
+	{
+		user: {
+			email: your.email@example.com,
+			password: your-password
+		}
+	}
 
 **GET /home/**
 Protected endpoint home, it require Bearer Token in header of form
-authorization : Bearer <usertoken>
+	
+	authorization : Bearer <usertoken>
