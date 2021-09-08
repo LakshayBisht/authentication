@@ -1,20 +1,29 @@
 ## Run locally
 
 **Create a folder and cd into it**
+
 `mkdir jwt-auth`
+
 `cd jwt-auth`
 
 **clone the repository**
+
 `git clone git@github.com:LakshayBisht/authentication.git`
 
 **Install the npm packages**
+
 `npm install`
+
 or
+
 `yarn install`
 
 **Run the project locally**
+
 `npm run dev`
+
 or
+
 `yarn run dev`
 
 This API is hosted at [here](https://lakshay-user-authentication.herokuapp.com/).
