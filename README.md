@@ -31,6 +31,7 @@ This API is hosted at [here](https://lakshay-user-authentication.herokuapp.com/)
 ## API
 
 **POST /user/signup/**
+
 Endpoint for signup, it also require payload in form of
 	
 	{
@@ -42,6 +43,7 @@ Endpoint for signup, it also require payload in form of
 	}
 
 **POST /user/login/**
+
 Endpoint for login, it also require payload in form of
 	
 	{
@@ -52,6 +54,7 @@ Endpoint for login, it also require payload in form of
 	}
 
 **GET /home/**
+
 Protected endpoint home, it require Bearer Token in header of form
 	
 	authorization : Bearer <usertoken>
